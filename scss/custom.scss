@@ -1,0 +1,92 @@
+// scss/custom.scss
+
+// 1. Definiere deine Variablen, BEVOR du etwas importierst.
+//    Die `!default` Flags aus den Bootstrap-Dateien
+//    werden nun ignoriert, weil deine Werte zuerst kommen.
+$primary:       #8CA089;  // Salbei
+$secondary:     #C9B89C;  // Beige
+$accent:        #1A2A33;  // Nachtblau
+$black:         #101010;  // Black
+$off-white:     #F9F0E8;  // Off White
+
+$blue:          $primary;
+$yellow:        $accent;
+$light:         $off-white;
+$dark:          $black;
+
+$font-family-sans-serif: 'Roboto', sans-serif;
+$headings-font-family: 'Poppins', sans-serif;
+
+
+// 2. Jetzt importierst du den gesamten Bootstrap-Code.
+//    Dieser Code verwendet nun deine neuen Variablen.
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// 3. Hier können deine zusätzlichen Stile stehen
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: normal;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+
+
+#home {
+    background-image: url(../images/background.PNG);
+    background-size: cover;
+    height: 30vh;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    #home{
+        height: 80vh;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 5rem;
+    }
+
+    h3 {
+       font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }   
+
+    h5 {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+ }
