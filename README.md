@@ -50,11 +50,11 @@ To view this project locally on your system:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [DEIN-NEUER-REPO-LINK-HIER]
+    git clone [YOUR-NEW-REPO-LINK-HERE]
     ```
 2.  **Navigate into the project directory:**
     ```bash
-    cd [DEIN-NEUER-PROJEKT-ORDNER-HIER]
+    cd [YOUR-NEW-PROJECT-FILE-HERE]
     ```
 3.  **Open the `index.html` file** directly in your web browser or use a local development server (e.g., the "Live Server" extension in VS Code).
 
